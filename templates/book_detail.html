@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ book.title }} by {{ book.author }}</h2>
+
+<h3>Reviews</h3>
+<ul class="review-list">
+    {% for review in reviews %}
+        <li>{{ review.review_text }}</li>
+    {% else %}
+        <li>No reviews yet.</li>
+    {% endfor %}
+</ul>
+
+<h3>Add a Review</h3>
+<form method="POST" action="{{ url_for('add_review', book_id=book.id) }}">
+    <textarea name="review_text" rows="4" cols="50" required></textarea><br/>
+    <button type="submit">Add Review</button>
+</form>
+{% endblock %}
