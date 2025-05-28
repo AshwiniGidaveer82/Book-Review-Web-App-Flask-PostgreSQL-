@@ -16,6 +16,7 @@ The Book Review Web Application is a lightweight, user-centric platform develope
 **Robust Backend:** The Flask framework manages HTTP requests, processes data, and interacts with the database efficiently.
 
 **Error Handling:** Basic validation and error detection are implemented to enhance stability and usability.
+
 -------------------------------------------
 
 **Technologies Employed**
@@ -31,6 +32,7 @@ This project integrates modern and reliable technologies, including:
 **psycopg2:** PostgreSQL adapter to facilitate communication between Flask and the database.
 
 **HTML & CSS:** For frontend markup and styling, providing a clean and accessible user interface.
+
 ---------------------------
 
 **Future Development Opportunities**
@@ -44,7 +46,9 @@ Enhanced book management, including update and deletion functions.
 Improved UI/UX with modern frameworks.
 
 Advanced search and filtering to improve content discoverability.
+
 ---------------------------------------------------------
+
 **Benefits and Applications**
 
 This application exemplifies the core principles of web development:
